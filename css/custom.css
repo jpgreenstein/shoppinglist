@@ -33,9 +33,11 @@ body {
 .item-container .delete {
 	border:1px solid;
 	float: right;
+	font-size: 20px;
 }
 .item-container .check {
 	border:1px solid;
+	font-size: 20px;
 }
 .item-description p {
 	margin-top: 10px;
@@ -43,4 +45,32 @@ body {
 }
 .item-strike {
 	text-decoration: line-through;
+}
+
+.undo-btn {
+	border: 1px solid black;
+}
+
+.undo-container {
+	margin-top: 300px;
+}
+.undo-container p {
+	font-size: 20px;
+}
+
+body.modal-open #wrap{
+    -webkit-filter: blur(7px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+  
+.modal-backdrop {background: #f7f7f7;}
+
+.close {
+    font-size: 50px;
+    text-align: center;
+    float: none;
+    border: 1px solid black;
 }
