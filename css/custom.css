@@ -27,15 +27,20 @@ body {
 	margin-bottom: 300px;
 	position: relative;
 }
-.list-item {
+.item-container {
 	border: 1px solid black;
 }
-.list-item .delete {
-
+.item-container .delete {
+	border:1px solid;
+	float: right;
 }
-.list-item .check {
+.item-container .check {
 	border:1px solid;
 }
-.list-item p {
-
+.item-description p {
+	margin-top: 10px;
+	font-size: 20px;
+}
+.item-strike {
+	text-decoration: line-through;
 }
