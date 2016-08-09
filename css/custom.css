@@ -79,6 +79,9 @@ body.modal-open #wrap{
 	width: 100%;
 	border:1px solid;
 }
-.add-item-btn {
 
+ul {
+	list-style: none;
+	margin: none;
+	display: none;
 }

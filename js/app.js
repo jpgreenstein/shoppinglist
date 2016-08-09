@@ -10,8 +10,10 @@ $(document).ready(function() {
 
 	$("#addItem").click(function () {
 		console.log('button clicked');
-		var listItem = $('item-description');
-		$(this).after(listItem );
+		var listItem = document.getElementById("add").value;
+		document.getElementById("description").innerHTML = listItem;
+		$('ul').show();
+		$('.list').appendChild(listItem);
 	})
 
 });
