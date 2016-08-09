@@ -8,4 +8,10 @@ $(document).ready(function() {
 	  $('.item-container').remove();
 	})
 
+	$("#addItem").click(function () {
+		console.log('button clicked');
+		var listItem = $('item-description');
+		$(this).after(listItem );
+	})
+
 });

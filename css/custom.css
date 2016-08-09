@@ -31,7 +31,7 @@ body {
 	border: 1px solid black;
 }
 .item-container .delete {
-	border:1px solid;
+	border: 1px solid;
 	float: right;
 	font-size: 20px;
 }
@@ -73,4 +73,12 @@ body.modal-open #wrap{
     text-align: center;
     float: none;
     border: 1px solid black;
+}
+
+.add-item {
+	width: 100%;
+	border:1px solid;
+}
+.add-item-btn {
+
 }

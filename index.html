@@ -32,7 +32,7 @@
 <!-- Container Starts -->
 	<div class="container-fluid" id="wrap">
 
-<!-- Header Bullshit -->
+<!-- Title Bullshit -->
 	    <div class="row">
 	    	<div class="col-md-offset-2 col-md-8 header"> 
 		    	<h1>Shopping Buddy</h1>
@@ -43,7 +43,18 @@
 <!-- List Item -->
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8 list-container">
-				<div class="col-xs-12 item-container">
+
+				<!-- Add Item -->		
+				<div class="col-md-offset-2 col-md-8">
+					<input type="text" class="add-item" id="add" placeholder="Add todo">
+					<div class="row">
+						<div class="col-md-offset-5 col-md-2">
+							<button id="addItem" class="btn add-item-btn">Add Item</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 item-container" id="new-item">
 					<div class="col-xs-2">
 						<a href="#" class="btn btn-lg check">got it</a>
 					</div>
@@ -59,6 +70,7 @@
 			</div>
 		</div>
 
+<!-- Container Ends -->
 	</div>
 
 <!-- Scripts -->
